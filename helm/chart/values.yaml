@@ -13,7 +13,7 @@ containers:
   main:
     image: rkalluru/d77-catalogue
     imagePullPolicy: Always
-  schema-loader:
+  schema_loader:
     image: docker.io/rkalluru/d77-schema-loader
     imagePullPolicy: Always
 

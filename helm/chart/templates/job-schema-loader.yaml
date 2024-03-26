@@ -21,8 +21,8 @@ spec:
               value: {{ .Values.job.PARAMS }}
       containers:
         - name: schema-load
-          image: {{ .Values.containers.schema-loader.image }}
-          imagePullPolicy: {{ .Values.containers.schema-loader.imagePullPolicy }}
+          image: {{ .Values.containers.schema_loader.image }}
+          imagePullPolicy: {{ .Values.containers.schema_loader.imagePullPolicy }}
           env:
             - name: COMPONENT
               value: {{ .Values.component }}
